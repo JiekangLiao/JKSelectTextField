@@ -6,6 +6,8 @@
 //  Copyright © 2017年 Jack Liao. All rights reserved.
 //
 
+#import "JKInputTableView.h"
+
 static NSString *cellID = @"cellID";
 
 @implementation JKInputTableView
