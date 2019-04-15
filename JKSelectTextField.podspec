@@ -2,9 +2,9 @@
  s.name             = "JKSelectTextField"    #名称
  s.version          = "0.0.1"             #版本号
  s.summary          = "A text field that can be pulled down."     #简短介绍，下面是详细介绍
- s.description      = <<-DESC
- JKSelectTextField is a text field that can be pulled down..
- DESC
+ #s.description      = <<-DESC
+ #JKSelectTextField is a text field that can be pulled down..
+ #DESC
  s.homepage         = "https://github.com/JiekangLiao/JKSelectTextField.git"                           #主页,这里要填写可以访问到的地址，不然验证不通过
 # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"           #截图
  s.license          = 'MIT'              #开源协议
@@ -20,6 +20,6 @@
 # 'PodTestLibrary' => ['Pod/Assets/*.png']
 # }                                       #资源文件地址
 # s.public_header_files = 'Pod/Classes/**/*.h'   #公开头文件地址
- s.frameworks = 'UIKit'                  #所需的framework，多个用逗号隔开
+ s.frameworks = 'UIKit', 'Foundation'                 #所需的framework，多个用逗号隔开
 # s.dependency 'AFNetworking', '~> 2.3'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
  end
