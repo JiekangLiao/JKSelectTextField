@@ -5,7 +5,7 @@
  s.homepage         = "https://github.com/JiekangLiao/JKSelectTextField"                           #主页,这里要填写可以访问到的地址，不然验证不通过
  s.license          = "MIT"
  s.author           = { "Jack" => "937902524@qq.com" }                   #作者信息
- s.source           = { :git => "https://github.com/JiekangLiao/JKSelectTextField.git", :tag => "0.0.1" }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
+ s.source           = { :git => "https://github.com/JiekangLiao/JKSelectTextField.git", :tag => "#{s.version}" }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
  s.platform     = :ios
  s.platform     = :ios, "9.0"           #支持的平台及版本
 
