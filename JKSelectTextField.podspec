@@ -10,7 +10,7 @@
  s.platform     = :ios
  s.platform     = :ios, "9.0"           #支持的平台及版本
 
- s.source_files = "Sources/**/*.{h,m}""     #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
+ s.source_files = "Sources/**/*.{h,m}"     #代码源文件地址，**/*表示Classes目录及其子目录下所有文件，如果有多个目录下则用逗号分开，如果需要在项目中分组显示，这里也要做相应的设置
 
 # s.public_header_files = "Pod/Classes/**/*.h"   #公开头文件地址
  s.requires_arc = true
