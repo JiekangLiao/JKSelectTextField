@@ -12,7 +12,7 @@
 
 @protocol JKInputTableViewDelegate <NSObject>
 
-
+@optional
 -(void)inputTableView:(nullable JKInputTableView *)inputTableView didSelectRowAtIndexPath:(nullable NSIndexPath *)indexPath object:(nullable id)object;
 
 -(void)cancelSelect;

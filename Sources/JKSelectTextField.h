@@ -12,6 +12,7 @@
 
 @protocol JKSelectTextFieldDelegate <NSObject>
 
+@optional
 -(void)jkSelectTextField:(nullable JKSelectTextField *)jkSelectTextField didSelectRowAtIndexPath:(nullable NSIndexPath *)indexPath object:(nullable id)object;
 
 @end
