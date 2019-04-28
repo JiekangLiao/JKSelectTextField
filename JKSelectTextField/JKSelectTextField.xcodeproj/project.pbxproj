@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42A559A2275CE6F00030EB2 /* JKInputTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A55972275CE6F00030EB2 /* JKInputTableView.m */; };
+		D42A559B2275CE6F00030EB2 /* JKSelectTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A55982275CE6F00030EB2 /* JKSelectTextField.m */; };
 		D42A632A226029F50099666B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A6329226029F50099666B /* AppDelegate.m */; };
 		D42A632D226029F50099666B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A632C226029F50099666B /* ViewController.m */; };
 		D42A6330226029F50099666B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A632E226029F50099666B /* Main.storyboard */; };
 		D42A6332226029FE0099666B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42A6331226029FE0099666B /* Assets.xcassets */; };
 		D42A6335226029FE0099666B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A6333226029FE0099666B /* LaunchScreen.storyboard */; };
 		D42A6338226029FE0099666B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A6337226029FE0099666B /* main.m */; };
-		D42A634322602AFF0099666B /* JKInputTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A634022602AFE0099666B /* JKInputTableView.m */; };
-		D42A634422602AFF0099666B /* JKSelectTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D42A634122602AFE0099666B /* JKSelectTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D42A55962275CE6F00030EB2 /* JKSelectTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSelectTextField.h; sourceTree = "<group>"; };
+		D42A55972275CE6F00030EB2 /* JKInputTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKInputTableView.m; sourceTree = "<group>"; };
+		D42A55982275CE6F00030EB2 /* JKSelectTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSelectTextField.m; sourceTree = "<group>"; };
+		D42A55992275CE6F00030EB2 /* JKInputTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKInputTableView.h; sourceTree = "<group>"; };
 		D42A6325226029F50099666B /* JKSelectTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSelectTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A6328226029F50099666B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D42A6329226029F50099666B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		D42A6334226029FE0099666B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D42A6336226029FE0099666B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42A6337226029FE0099666B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D42A633F22602AFE0099666B /* JKSelectTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSelectTextField.h; sourceTree = "<group>"; };
-		D42A634022602AFE0099666B /* JKInputTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKInputTableView.m; sourceTree = "<group>"; };
-		D42A634122602AFE0099666B /* JKSelectTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSelectTextField.m; sourceTree = "<group>"; };
-		D42A634222602AFE0099666B /* JKInputTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKInputTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D42A55952275CE6F00030EB2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D42A55962275CE6F00030EB2 /* JKSelectTextField.h */,
+				D42A55972275CE6F00030EB2 /* JKInputTableView.m */,
+				D42A55982275CE6F00030EB2 /* JKSelectTextField.m */,
+				D42A55992275CE6F00030EB2 /* JKInputTableView.h */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
 		D42A631C226029F50099666B = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +80,7 @@
 				D42A6329226029F50099666B /* AppDelegate.m */,
 				D42A632B226029F50099666B /* ViewController.h */,
 				D42A632C226029F50099666B /* ViewController.m */,
-				D42A633E22602AFE0099666B /* Sources */,
+				D42A55952275CE6F00030EB2 /* Sources */,
 				D42A632E226029F50099666B /* Main.storyboard */,
 				D42A6331226029FE0099666B /* Assets.xcassets */,
 				D42A6333226029FE0099666B /* LaunchScreen.storyboard */,
@@ -76,17 +88,6 @@
 				D42A6337226029FE0099666B /* main.m */,
 			);
 			path = JKSelectTextField;
-			sourceTree = "<group>";
-		};
-		D42A633E22602AFE0099666B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D42A634222602AFE0099666B /* JKInputTableView.h */,
-				D42A634022602AFE0099666B /* JKInputTableView.m */,
-				D42A633F22602AFE0099666B /* JKSelectTextField.h */,
-				D42A634122602AFE0099666B /* JKSelectTextField.m */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42A632D226029F50099666B /* ViewController.m in Sources */,
-				D42A634322602AFF0099666B /* JKInputTableView.m in Sources */,
+				D42A559A2275CE6F00030EB2 /* JKInputTableView.m in Sources */,
 				D42A6338226029FE0099666B /* main.m in Sources */,
-				D42A634422602AFF0099666B /* JKSelectTextField.m in Sources */,
+				D42A559B2275CE6F00030EB2 /* JKSelectTextField.m in Sources */,
 				D42A632A226029F50099666B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
