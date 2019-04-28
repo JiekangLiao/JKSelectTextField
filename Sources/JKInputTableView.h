@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKInputTableView.h"
 
 @class JKInputTableView;
 
